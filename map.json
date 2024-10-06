@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Median house price per suburb (2010-2020)",
+  "width": "container",
+  "height": 500,
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 2002,
+        "max": 2020,
+        "step": 1,
+        "name": "Year:  "
+      }
+    },
+    {
+      "name": "zoom_level",
+      "value": 30000,
+      "bind": {
+        "input": "range",
+        "min": 3500,
+        "max": 60000,
+        "step": 100,
+        "name": "Zoom: "
+      }
+    },
+    {
+      "name": "center_to",
+      "value": [145, -37.95],
+      "bind": {
+        "input": "select",
+        "options": [
+          [145, -37.95],
+          [151.2, -33.86],
+          [153.1, -27.47],
+          [147.1, -38.1]
+        ],
+        "labels": ["Melbourne CBD", "Sydney", "Brisbane"],
+        "name": "Map Centre: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "equirectangular",
+    "center": {"expr": "center_to"},
+    "scale": {"expr": "zoom_level"}
+  },
+  "layer": [
+    {
+      "data": {
+      "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/LGA_2021_AUST_GDA2020.json",
+      "format": {"type": "topojson", "feature": "LGA_2021_AUST_GDA2020"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/growth.csv"
+      },
+      "transform": [
+        {
+          "lookup": "lga_name_2021",
+          "from": {
+            "data": {
+            "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/LGA_2021_AUST_GDA2020.json",
+            "format": {"type": "topojson", "feature": "LGA_2021_AUST_GDA2020"}
+            },
+            "key": "properties.LGA_NAME21"
+          },
+          "as": "geo"
+        }
+      ],
+      "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "growth_02",
+          "type": "quantitative",
+          "scale": {"domain": [-10.0, 10.0], "scheme": "brownbluegreen"},
+          "legend": {"format": ".2s"}
+        },
+        "tooltip": [
+          {"field": "lga_name_2021", "type": "nominal", "title": "Suburb"},
+          {
+            "field": "growth_02",
+            "type": "quantitative",
+            "title": "growth_02",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

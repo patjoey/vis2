@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 300,
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {"url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/growth.csv"},
+  "params": [
+    {
+      "name": "State_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "South Australia",
+          "Western Australia",
+          "Tasmania",
+          "Northern Territory",
+          "Australian Capital Territory"
+        ],
+        "labels": [
+          "Show All",
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "South Australia",
+          "Western Australia",
+          "Tasmania",
+          "Northern Territory",
+          "Australian Capital Territory"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "State_selection == null || datum.state_name_2021 == State_selection"
+    }
+  ],
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "erp_2019", "type": "quantitative","title": "Population", "scale": {"type": "log"}},
+    "y": {"field": "growth_19", "type": "quantitative", "title": "Growth Rate"},
+    "color":{"field": "state_name_2021", "type": "nominal"}
+  }
+}

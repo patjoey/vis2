@@ -1,0 +1,90 @@
+{
+  "width": 400, "height": 300,
+  "data": {"url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/state_change.csv"},
+  "params":[
+    {
+      "name": "State_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Victoria",
+          "New South Wales",
+          "Queensland",
+          "Tasmania",
+          "South Australia",
+          "Western Australia",
+          "Northern Territory"
+        ],
+        "labels": [
+          "Victoria",
+          "New South Wales",
+          "Queensland",
+          "Tasmania",
+          "South Australia",
+          "Western Australia",
+          "Northern Territory"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "layer": [
+    {
+    "mark": "area",
+    "transform": [{"filter": "datum.Type != 'net_internal_migration' & datum.Type != 'net_overseas_migration'& datum.Type != 'natural_increase'" },
+    {
+        "filter": "State_selection == null || datum.State == State_selection"
+      }
+      ],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "count"
+      },
+      "color": {
+            "field": "Type",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "births",
+                "deaths",
+                "internal_arrivals",
+                "internal_departures",
+                "overseas_arrivals",
+                "overseas_departures"
+              ],
+              "range": [
+                "#0560e1",
+                "#7B8896",
+                "#319dd3",
+                "#EA653B",
+                "#5684ae",
+                "#E3491A"
+              ]
+            }
+          },
+          "opacity": {"value": 0.6},
+    }
+  },
+  {
+    "mark":"line",
+    "transform": [{"filter": "datum.Type != 'net_internal_migration' & datum.Type != 'net_overseas_migration'& datum.Type != 'natural_increase'" },
+    {
+        "filter": "State_selection == null || datum.State == State_selection"
+      }
+      ],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "count"
+      }
+    }
+  }
+  ]
+}

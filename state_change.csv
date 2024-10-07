@@ -1,361 +1,361 @@
 State,Year,Type,count
-New South Wales,2016,births_2016_17,98582
-New South Wales,2016,deaths_2016_17,-53845
-New South Wales,2016,natural_increase_2016_17,44737
-New South Wales,2016,internal_arrivals_2016_17,457426
-New South Wales,2016,internal_departures_2016_17,-472587
-New South Wales,2016,net_internal_migration_2016_17,-15161
-New South Wales,2016,overseas_arrivals_2016_17,198296
-New South Wales,2016,overseas_departures_2016_17,-92794
-New South Wales,2016,net_overseas_migration_2016_17,105502
-New South Wales,2017,births_2017_18,97930
-New South Wales,2017,deaths_2017_18,-54676
-New South Wales,2017,natural_increase_2017_18,43254
-New South Wales,2017,internal_arrivals_2017_18,528689
-New South Wales,2017,internal_departures_2017_18,-550361
-New South Wales,2017,net_internal_migration_2017_18,-21672
-New South Wales,2017,overseas_arrivals_2017_18,191451
-New South Wales,2017,overseas_departures_2017_18,-100801
-New South Wales,2017,net_overseas_migration_2017_18,90650
-New South Wales,2018,births_2018_19,99046
-New South Wales,2018,deaths_2018_19,-54315
-New South Wales,2018,natural_increase_2018_19,44731
-New South Wales,2018,internal_arrivals_2018_19,529182
-New South Wales,2018,internal_departures_2018_19,-551245
-New South Wales,2018,net_internal_migration_2018_19,-22063
-New South Wales,2018,overseas_arrivals_2018_19,194266
-New South Wales,2018,overseas_departures_2018_19,-109723
-New South Wales,2018,net_overseas_migration_2018_19,84543
-New South Wales,2019,births_2019_20,96974
-New South Wales,2019,deaths_2019_20,-54305
-New South Wales,2019,natural_increase_2019_20,42669
-New South Wales,2019,internal_arrivals_2019_20,519975
-New South Wales,2019,internal_departures_2019_20,-540862
-New South Wales,2019,net_internal_migration_2019_20,-20887
-New South Wales,2019,overseas_arrivals_2019_20,172446
-New South Wales,2019,overseas_departures_2019_20,-114583
-New South Wales,2019,net_overseas_migration_2019_20,57863
-New South Wales,2020,births_2020_21,97728
-New South Wales,2020,deaths_2020_21,-53339
-New South Wales,2020,natural_increase_2020_21,44389
-New South Wales,2020,internal_arrivals_2020_21,571925
-New South Wales,2020,internal_departures_2020_21,-588747
-New South Wales,2020,net_internal_migration_2020_21,-16822
-New South Wales,2020,overseas_arrivals_2020_21,72759
-New South Wales,2020,overseas_departures_2020_21,-78699
-New South Wales,2020,net_overseas_migration_2020_21,-5940
-Victoria,2016,births_2016_17,78295
-Victoria,2016,deaths_2016_17,-39297
-Victoria,2016,natural_increase_2016_17,38998
-Victoria,2016,internal_arrivals_2016_17,404805
-Victoria,2016,internal_departures_2016_17,-386612
-Victoria,2016,net_internal_migration_2016_17,18193
-Victoria,2016,overseas_arrivals_2016_17,159626
-Victoria,2016,overseas_departures_2016_17,-68383
-Victoria,2016,net_overseas_migration_2016_17,91243
-Victoria,2017,births_2017_18,78231
-Victoria,2017,deaths_2017_18,-39102
-Victoria,2017,natural_increase_2017_18,39129
-Victoria,2017,internal_arrivals_2017_18,456248
-Victoria,2017,internal_departures_2017_18,-441932
-Victoria,2017,net_internal_migration_2017_18,14316
-Victoria,2017,overseas_arrivals_2017_18,161166
-Victoria,2017,overseas_departures_2017_18,-74198
-Victoria,2017,net_overseas_migration_2017_18,86968
-Victoria,2018,births_2018_19,77767
-Victoria,2018,deaths_2018_19,-40580
-Victoria,2018,natural_increase_2018_19,37187
-Victoria,2018,internal_arrivals_2018_19,468609
-Victoria,2018,internal_departures_2018_19,-456411
-Victoria,2018,net_internal_migration_2018_19,12198
-Victoria,2018,overseas_arrivals_2018_19,168314
-Victoria,2018,overseas_departures_2018_19,-82838
-Victoria,2018,net_overseas_migration_2018_19,85476
-Victoria,2019,births_2019_20,75363
-Victoria,2019,deaths_2019_20,-41225
-Victoria,2019,natural_increase_2019_20,34138
-Victoria,2019,internal_arrivals_2019_20,439220
-Victoria,2019,internal_departures_2019_20,-436977
-Victoria,2019,net_internal_migration_2019_20,2243
-Victoria,2019,overseas_arrivals_2019_20,150633
-Victoria,2019,overseas_departures_2019_20,-90036
-Victoria,2019,net_overseas_migration_2019_20,60597
-Victoria,2020,births_2020_21,70654
-Victoria,2020,deaths_2020_21,-40965
-Victoria,2020,natural_increase_2020_21,29689
-Victoria,2020,internal_arrivals_2020_21,469534
-Victoria,2020,internal_departures_2020_21,-487881
-Victoria,2020,net_internal_migration_2020_21,-18347
-Victoria,2020,overseas_arrivals_2020_21,25071
-Victoria,2020,overseas_departures_2020_21,-81205
-Victoria,2020,net_overseas_migration_2020_21,-56134
-Queensland,2016,births_2016_17,61298
-Queensland,2016,deaths_2016_17,-30691
-Queensland,2016,natural_increase_2016_17,30607
-Queensland,2016,internal_arrivals_2016_17,283734
-Queensland,2016,internal_departures_2016_17,-265939
-Queensland,2016,net_internal_migration_2016_17,17795
-Queensland,2016,overseas_arrivals_2016_17,87821
-Queensland,2016,overseas_departures_2016_17,-53746
-Queensland,2016,net_overseas_migration_2016_17,34075
-Queensland,2017,births_2017_18,60951
-Queensland,2017,deaths_2017_18,-31595
-Queensland,2017,natural_increase_2017_18,29356
-Queensland,2017,internal_arrivals_2017_18,320918
-Queensland,2017,internal_departures_2017_18,-296220
-Queensland,2017,net_internal_migration_2017_18,24698
-Queensland,2017,overseas_arrivals_2017_18,85440
-Queensland,2017,overseas_departures_2017_18,-57699
-Queensland,2017,net_overseas_migration_2017_18,27741
-Queensland,2018,births_2018_19,61165
-Queensland,2018,deaths_2018_19,-31285
-Queensland,2018,natural_increase_2018_19,29880
-Queensland,2018,internal_arrivals_2018_19,342864
-Queensland,2018,internal_departures_2018_19,-320033
-Queensland,2018,net_internal_migration_2018_19,22831
-Queensland,2018,overseas_arrivals_2018_19,91664
-Queensland,2018,overseas_departures_2018_19,-59915
-Queensland,2018,net_overseas_migration_2018_19,31749
-Queensland,2019,births_2019_20,60362
-Queensland,2019,deaths_2019_20,-32323
-Queensland,2019,natural_increase_2019_20,28039
-Queensland,2019,internal_arrivals_2019_20,323604
-Queensland,2019,internal_departures_2019_20,-298256
-Queensland,2019,net_internal_migration_2019_20,25348
-Queensland,2019,overseas_arrivals_2019_20,85581
-Queensland,2019,overseas_departures_2019_20,-57607
-Queensland,2019,net_overseas_migration_2019_20,27974
-Queensland,2020,births_2020_21,61381
-Queensland,2020,deaths_2020_21,-32029
-Queensland,2020,natural_increase_2020_21,29352
-Queensland,2020,internal_arrivals_2020_21,346862
-Queensland,2020,internal_departures_2020_21,-315683
-Queensland,2020,net_internal_migration_2020_21,31179
-Queensland,2020,overseas_arrivals_2020_21,22134
-Queensland,2020,overseas_departures_2020_21,-36677
-Queensland,2020,net_overseas_migration_2020_21,-14543
-South Australia,2016,births_2016_17,19438
-South Australia,2016,deaths_2016_17,-13755
-South Australia,2016,natural_increase_2016_17,5683
-South Australia,2016,internal_arrivals_2016_17,105727
-South Australia,2016,internal_departures_2016_17,-112505
-South Australia,2016,net_internal_migration_2016_17,-6778
-South Australia,2016,overseas_arrivals_2016_17,23819
-South Australia,2016,overseas_departures_2016_17,-11644
-South Australia,2016,net_overseas_migration_2016_17,12175
-South Australia,2017,births_2017_18,18929
-South Australia,2017,deaths_2017_18,-13898
-South Australia,2017,natural_increase_2017_18,5031
-South Australia,2017,internal_arrivals_2017_18,121902
-South Australia,2017,internal_departures_2017_18,-127053
-South Australia,2017,net_internal_migration_2017_18,-5151
-South Australia,2017,overseas_arrivals_2017_18,24104
-South Australia,2017,overseas_departures_2017_18,-11380
-South Australia,2017,net_overseas_migration_2017_18,12724
-South Australia,2018,births_2018_19,18922
-South Australia,2018,deaths_2018_19,-13951
-South Australia,2018,natural_increase_2018_19,4971
-South Australia,2018,internal_arrivals_2018_19,123149
-South Australia,2018,internal_departures_2018_19,-127107
-South Australia,2018,net_internal_migration_2018_19,-3958
-South Australia,2018,overseas_arrivals_2018_19,26649
-South Australia,2018,overseas_departures_2018_19,-11508
-South Australia,2018,net_overseas_migration_2018_19,15141
-South Australia,2019,births_2019_20,18763
-South Australia,2019,deaths_2019_20,-13945
-South Australia,2019,natural_increase_2019_20,4818
-South Australia,2019,internal_arrivals_2019_20,123294
-South Australia,2019,internal_departures_2019_20,-125454
-South Australia,2019,net_internal_migration_2019_20,-2160
-South Australia,2019,overseas_arrivals_2019_20,27741
-South Australia,2019,overseas_departures_2019_20,-12803
-South Australia,2019,net_overseas_migration_2019_20,14938
-South Australia,2020,births_2020_21,19312
-South Australia,2020,deaths_2020_21,-13772
-South Australia,2020,natural_increase_2020_21,5540
-South Australia,2020,internal_arrivals_2020_21,131018
-South Australia,2020,internal_departures_2020_21,-130123
-South Australia,2020,net_internal_migration_2020_21,895
-South Australia,2020,overseas_arrivals_2020_21,5717
-South Australia,2020,overseas_departures_2020_21,-9033
-South Australia,2020,net_overseas_migration_2020_21,-3316
-Western Australia,2016,births_2016_17,35045
-Western Australia,2016,deaths_2016_17,-14896
-Western Australia,2016,natural_increase_2016_17,20149
-Western Australia,2016,internal_arrivals_2016_17,184732
-Western Australia,2016,internal_departures_2016_17,-198666
-Western Australia,2016,net_internal_migration_2016_17,-13934
-Western Australia,2016,overseas_arrivals_2016_17,48655
-Western Australia,2016,overseas_departures_2016_17,-36636
-Western Australia,2016,net_overseas_migration_2016_17,12019
-Western Australia,2017,births_2017_18,33989
-Western Australia,2017,deaths_2017_18,-14658
-Western Australia,2017,natural_increase_2017_18,19331
-Western Australia,2017,internal_arrivals_2017_18,199942
-Western Australia,2017,internal_departures_2017_18,-211242
-Western Australia,2017,net_internal_migration_2017_18,-11300
-Western Australia,2017,overseas_arrivals_2017_18,44227
-Western Australia,2017,overseas_departures_2017_18,-32259
-Western Australia,2017,net_overseas_migration_2017_18,11968
-Western Australia,2018,births_2018_19,33251
-Western Australia,2018,deaths_2018_19,-15186
-Western Australia,2018,natural_increase_2018_19,18065
-Western Australia,2018,internal_arrivals_2018_19,211433
-Western Australia,2018,internal_departures_2018_19,-217884
-Western Australia,2018,net_internal_migration_2018_19,-6451
-Western Australia,2018,overseas_arrivals_2018_19,48114
-Western Australia,2018,overseas_departures_2018_19,-30610
-Western Australia,2018,net_overseas_migration_2018_19,17504
-Western Australia,2019,births_2019_20,33115
-Western Australia,2019,deaths_2019_20,-14896
-Western Australia,2019,natural_increase_2019_20,18219
-Western Australia,2019,internal_arrivals_2019_20,195794
-Western Australia,2019,internal_departures_2019_20,-198204
-Western Australia,2019,net_internal_migration_2019_20,-2410
-Western Australia,2019,overseas_arrivals_2019_20,50427
-Western Australia,2019,overseas_departures_2019_20,-25265
-Western Australia,2019,net_overseas_migration_2019_20,25162
-Western Australia,2020,births_2020_21,33792
-Western Australia,2020,deaths_2020_21,-15305
-Western Australia,2020,natural_increase_2020_21,18487
-Western Australia,2020,internal_arrivals_2020_21,203957
-Western Australia,2020,internal_departures_2020_21,-198606
-Western Australia,2020,net_internal_migration_2020_21,5351
-Western Australia,2020,overseas_arrivals_2020_21,12497
-Western Australia,2020,overseas_departures_2020_21,-18269
-Western Australia,2020,net_overseas_migration_2020_21,-5772
-Tasmania,2016,births_2016_17,5589
-Tasmania,2016,deaths_2016_17,-4559
-Tasmania,2016,natural_increase_2016_17,1030
-Tasmania,2016,internal_arrivals_2016_17,33327
-Tasmania,2016,internal_departures_2016_17,-31805
-Tasmania,2016,net_internal_migration_2016_17,1522
-Tasmania,2016,overseas_arrivals_2016_17,4703
-Tasmania,2016,overseas_departures_2016_17,-2359
-Tasmania,2016,net_overseas_migration_2016_17,2344
-Tasmania,2017,births_2017_18,5395
-Tasmania,2017,deaths_2017_18,-4692
-Tasmania,2017,natural_increase_2017_18,703
-Tasmania,2017,internal_arrivals_2017_18,39436
-Tasmania,2017,internal_departures_2017_18,-37054
-Tasmania,2017,net_internal_migration_2017_18,2382
-Tasmania,2017,overseas_arrivals_2017_18,5107
-Tasmania,2017,overseas_departures_2017_18,-2304
-Tasmania,2017,net_overseas_migration_2017_18,2803
-Tasmania,2018,births_2018_19,5543
-Tasmania,2018,deaths_2018_19,-4459
-Tasmania,2018,natural_increase_2018_19,1084
-Tasmania,2018,internal_arrivals_2018_19,40132
-Tasmania,2018,internal_departures_2018_19,-38124
-Tasmania,2018,net_internal_migration_2018_19,2008
-Tasmania,2018,overseas_arrivals_2018_19,5876
-Tasmania,2018,overseas_departures_2018_19,-2691
-Tasmania,2018,net_overseas_migration_2018_19,3185
-Tasmania,2019,births_2019_20,5633
-Tasmania,2019,deaths_2019_20,-4523
-Tasmania,2019,natural_increase_2019_20,1110
-Tasmania,2019,internal_arrivals_2019_20,37005
-Tasmania,2019,internal_departures_2019_20,-35792
-Tasmania,2019,net_internal_migration_2019_20,1213
-Tasmania,2019,overseas_arrivals_2019_20,6507
-Tasmania,2019,overseas_departures_2019_20,-2869
-Tasmania,2019,net_overseas_migration_2019_20,3638
-Tasmania,2020,births_2020_21,5867
-Tasmania,2020,deaths_2020_21,-4529
-Tasmania,2020,natural_increase_2020_21,1338
-Tasmania,2020,internal_arrivals_2020_21,38498
-Tasmania,2020,internal_departures_2020_21,-38607
-Tasmania,2020,net_internal_migration_2020_21,-109
-Tasmania,2020,overseas_arrivals_2020_21,1551
-Tasmania,2020,overseas_departures_2020_21,-2001
-Tasmania,2020,net_overseas_migration_2020_21,-450
-Northern Territory,2016,births_2016_17,3940
-Northern Territory,2016,deaths_2016_17,-1079
-Northern Territory,2016,natural_increase_2016_17,2861
-Northern Territory,2016,internal_arrivals_2016_17,21544
-Northern Territory,2016,internal_departures_2016_17,-24411
-Northern Territory,2016,net_internal_migration_2016_17,-2867
-Northern Territory,2016,overseas_arrivals_2016_17,6904
-Northern Territory,2016,overseas_departures_2016_17,-5059
-Northern Territory,2016,net_overseas_migration_2016_17,1845
-Northern Territory,2017,births_2017_18,3765
-Northern Territory,2017,deaths_2017_18,-1151
-Northern Territory,2017,natural_increase_2017_18,2614
-Northern Territory,2017,internal_arrivals_2017_18,20876
-Northern Territory,2017,internal_departures_2017_18,-24707
-Northern Territory,2017,net_internal_migration_2017_18,-3831
-Northern Territory,2017,overseas_arrivals_2017_18,5024
-Northern Territory,2017,overseas_departures_2017_18,-4266
-Northern Territory,2017,net_overseas_migration_2017_18,758
-Northern Territory,2018,births_2018_19,3675
-Northern Territory,2018,deaths_2018_19,-1151
-Northern Territory,2018,natural_increase_2018_19,2524
-Northern Territory,2018,internal_arrivals_2018_19,22185
-Northern Territory,2018,internal_departures_2018_19,-26556
-Northern Territory,2018,net_internal_migration_2018_19,-4371
-Northern Territory,2018,overseas_arrivals_2018_19,5554
-Northern Territory,2018,overseas_departures_2018_19,-4622
-Northern Territory,2018,net_overseas_migration_2018_19,932
-Northern Territory,2019,births_2019_20,3618
-Northern Territory,2019,deaths_2019_20,-1118
-Northern Territory,2019,natural_increase_2019_20,2500
-Northern Territory,2019,internal_arrivals_2019_20,22012
-Northern Territory,2019,internal_departures_2019_20,-24709
-Northern Territory,2019,net_internal_migration_2019_20,-2697
-Northern Territory,2019,overseas_arrivals_2019_20,4122
-Northern Territory,2019,overseas_departures_2019_20,-3833
-Northern Territory,2019,net_overseas_migration_2019_20,289
-Northern Territory,2020,births_2020_21,3790
-Northern Territory,2020,deaths_2020_21,-1145
-Northern Territory,2020,natural_increase_2020_21,2645
-Northern Territory,2020,internal_arrivals_2020_21,22288
-Northern Territory,2020,internal_departures_2020_21,-24792
-Northern Territory,2020,net_internal_migration_2020_21,-2504
-Northern Territory,2020,overseas_arrivals_2020_21,1419
-Northern Territory,2020,overseas_departures_2020_21,-1886
-Northern Territory,2020,net_overseas_migration_2020_21,-467
-Australian Capital Territory,2016,births_2016_17,5599
-Australian Capital Territory,2016,deaths_2016_17,-2056
-Australian Capital Territory,2016,natural_increase_2016_17,3543
-Australian Capital Territory,2016,internal_arrivals_2016_17,21352
-Australian Capital Territory,2016,internal_departures_2016_17,-20122
-Australian Capital Territory,2016,net_internal_migration_2016_17,1230
-Australian Capital Territory,2016,overseas_arrivals_2016_17,10328
-Australian Capital Territory,2016,overseas_departures_2016_17,-6180
-Australian Capital Territory,2016,net_overseas_migration_2016_17,4148
-Australian Capital Territory,2017,births_2017_18,5365
-Australian Capital Territory,2017,deaths_2017_18,-2167
-Australian Capital Territory,2017,natural_increase_2017_18,3198
-Australian Capital Territory,2017,internal_arrivals_2017_18,22161
-Australian Capital Territory,2017,internal_departures_2017_18,-21603
-Australian Capital Territory,2017,net_internal_migration_2017_18,558
-Australian Capital Territory,2017,overseas_arrivals_2017_18,10973
-Australian Capital Territory,2017,overseas_departures_2017_18,-6375
-Australian Capital Territory,2017,net_overseas_migration_2017_18,4598
-Australian Capital Territory,2018,births_2018_19,5356
-Australian Capital Territory,2018,deaths_2018_19,-2065
-Australian Capital Territory,2018,natural_increase_2018_19,3291
-Australian Capital Territory,2018,internal_arrivals_2018_19,22405
-Australian Capital Territory,2018,internal_departures_2018_19,-22599
-Australian Capital Territory,2018,net_internal_migration_2018_19,-194
-Australian Capital Territory,2018,overseas_arrivals_2018_19,9945
-Australian Capital Territory,2018,overseas_departures_2018_19,-7136
-Australian Capital Territory,2018,net_overseas_migration_2018_19,2809
-Australian Capital Territory,2019,births_2019_20,5476
-Australian Capital Territory,2019,deaths_2019_20,-2133
-Australian Capital Territory,2019,natural_increase_2019_20,3343
-Australian Capital Territory,2019,internal_arrivals_2019_20,20394
-Australian Capital Territory,2019,internal_departures_2019_20,-21044
-Australian Capital Territory,2019,net_internal_migration_2019_20,-650
-Australian Capital Territory,2019,overseas_arrivals_2019_20,9378
-Australian Capital Territory,2019,overseas_departures_2019_20,-7143
-Australian Capital Territory,2019,net_overseas_migration_2019_20,2235
-Australian Capital Territory,2020,births_2020_21,5420
-Australian Capital Territory,2020,deaths_2020_21,-2102
-Australian Capital Territory,2020,natural_increase_2020_21,3318
-Australian Capital Territory,2020,internal_arrivals_2020_21,22079
-Australian Capital Territory,2020,internal_departures_2020_21,-21722
-Australian Capital Territory,2020,net_internal_migration_2020_21,357
-Australian Capital Territory,2020,overseas_arrivals_2020_21,2623
-Australian Capital Territory,2020,overseas_departures_2020_21,-5900
-Australian Capital Territory,2020,net_overseas_migration_2020_21,-3277
+New South Wales,2016,births,98582
+New South Wales,2016,deaths,-53845
+New South Wales,2016,natural_increase,44737
+New South Wales,2016,internal_arrivals,457426
+New South Wales,2016,internal_departures,-472587
+New South Wales,2016,net_internal_migration,-15161
+New South Wales,2016,overseas_arrivals,198296
+New South Wales,2016,overseas_departures,-92794
+New South Wales,2016,net_overseas_migration,105502
+New South Wales,2017,births,97930
+New South Wales,2017,deaths,-54676
+New South Wales,2017,natural_increase,43254
+New South Wales,2017,internal_arrivals,528689
+New South Wales,2017,internal_departures,-550361
+New South Wales,2017,net_internal_migration,-21672
+New South Wales,2017,overseas_arrivals,191451
+New South Wales,2017,overseas_departures,-100801
+New South Wales,2017,net_overseas_migration,90650
+New South Wales,2018,births,99046
+New South Wales,2018,deaths,-54315
+New South Wales,2018,natural_increase,44731
+New South Wales,2018,internal_arrivals,529182
+New South Wales,2018,internal_departures,-551245
+New South Wales,2018,net_internal_migration,-22063
+New South Wales,2018,overseas_arrivals,194266
+New South Wales,2018,overseas_departures,-109723
+New South Wales,2018,net_overseas_migration,84543
+New South Wales,2019,births,96974
+New South Wales,2019,deaths,-54305
+New South Wales,2019,natural_increase,42669
+New South Wales,2019,internal_arrivals,519975
+New South Wales,2019,internal_departures,-540862
+New South Wales,2019,net_internal_migration,-20887
+New South Wales,2019,overseas_arrivals,172446
+New South Wales,2019,overseas_departures,-114583
+New South Wales,2019,net_overseas_migration,57863
+New South Wales,2020,births,97728
+New South Wales,2020,deaths,-53339
+New South Wales,2020,natural_increase,44389
+New South Wales,2020,internal_arrivals,571925
+New South Wales,2020,internal_departures,-588747
+New South Wales,2020,net_internal_migration,-16822
+New South Wales,2020,overseas_arrivals,72759
+New South Wales,2020,overseas_departures,-78699
+New South Wales,2020,net_overseas_migration,-5940
+Victoria,2016,births,78295
+Victoria,2016,deaths,-39297
+Victoria,2016,natural_increase,38998
+Victoria,2016,internal_arrivals,404805
+Victoria,2016,internal_departures,-386612
+Victoria,2016,net_internal_migration,18193
+Victoria,2016,overseas_arrivals,159626
+Victoria,2016,overseas_departures,-68383
+Victoria,2016,net_overseas_migration,91243
+Victoria,2017,births,78231
+Victoria,2017,deaths,-39102
+Victoria,2017,natural_increase,39129
+Victoria,2017,internal_arrivals,456248
+Victoria,2017,internal_departures,-441932
+Victoria,2017,net_internal_migration,14316
+Victoria,2017,overseas_arrivals,161166
+Victoria,2017,overseas_departures,-74198
+Victoria,2017,net_overseas_migration,86968
+Victoria,2018,births,77767
+Victoria,2018,deaths,-40580
+Victoria,2018,natural_increase,37187
+Victoria,2018,internal_arrivals,468609
+Victoria,2018,internal_departures,-456411
+Victoria,2018,net_internal_migration,12198
+Victoria,2018,overseas_arrivals,168314
+Victoria,2018,overseas_departures,-82838
+Victoria,2018,net_overseas_migration,85476
+Victoria,2019,births,75363
+Victoria,2019,deaths,-41225
+Victoria,2019,natural_increase,34138
+Victoria,2019,internal_arrivals,439220
+Victoria,2019,internal_departures,-436977
+Victoria,2019,net_internal_migration,2243
+Victoria,2019,overseas_arrivals,150633
+Victoria,2019,overseas_departures,-90036
+Victoria,2019,net_overseas_migration,60597
+Victoria,2020,births,70654
+Victoria,2020,deaths,-40965
+Victoria,2020,natural_increase,29689
+Victoria,2020,internal_arrivals,469534
+Victoria,2020,internal_departures,-487881
+Victoria,2020,net_internal_migration,-18347
+Victoria,2020,overseas_arrivals,25071
+Victoria,2020,overseas_departures,-81205
+Victoria,2020,net_overseas_migration,-56134
+Queensland,2016,births,61298
+Queensland,2016,deaths,-30691
+Queensland,2016,natural_increase,30607
+Queensland,2016,internal_arrivals,283734
+Queensland,2016,internal_departures,-265939
+Queensland,2016,net_internal_migration,17795
+Queensland,2016,overseas_arrivals,87821
+Queensland,2016,overseas_departures,-53746
+Queensland,2016,net_overseas_migration,34075
+Queensland,2017,births,60951
+Queensland,2017,deaths,-31595
+Queensland,2017,natural_increase,29356
+Queensland,2017,internal_arrivals,320918
+Queensland,2017,internal_departures,-296220
+Queensland,2017,net_internal_migration,24698
+Queensland,2017,overseas_arrivals,85440
+Queensland,2017,overseas_departures,-57699
+Queensland,2017,net_overseas_migration,27741
+Queensland,2018,births,61165
+Queensland,2018,deaths,-31285
+Queensland,2018,natural_increase,29880
+Queensland,2018,internal_arrivals,342864
+Queensland,2018,internal_departures,-320033
+Queensland,2018,net_internal_migration,22831
+Queensland,2018,overseas_arrivals,91664
+Queensland,2018,overseas_departures,-59915
+Queensland,2018,net_overseas_migration,31749
+Queensland,2019,births,60362
+Queensland,2019,deaths,-32323
+Queensland,2019,natural_increase,28039
+Queensland,2019,internal_arrivals,323604
+Queensland,2019,internal_departures,-298256
+Queensland,2019,net_internal_migration,25348
+Queensland,2019,overseas_arrivals,85581
+Queensland,2019,overseas_departures,-57607
+Queensland,2019,net_overseas_migration,27974
+Queensland,2020,births,61381
+Queensland,2020,deaths,-32029
+Queensland,2020,natural_increase,29352
+Queensland,2020,internal_arrivals,346862
+Queensland,2020,internal_departures,-315683
+Queensland,2020,net_internal_migration,31179
+Queensland,2020,overseas_arrivals,22134
+Queensland,2020,overseas_departures,-36677
+Queensland,2020,net_overseas_migration,-14543
+South Australia,2016,births,19438
+South Australia,2016,deaths,-13755
+South Australia,2016,natural_increase,5683
+South Australia,2016,internal_arrivals,105727
+South Australia,2016,internal_departures,-112505
+South Australia,2016,net_internal_migration,-6778
+South Australia,2016,overseas_arrivals,23819
+South Australia,2016,overseas_departures,-11644
+South Australia,2016,net_overseas_migration,12175
+South Australia,2017,births,18929
+South Australia,2017,deaths,-13898
+South Australia,2017,natural_increase,5031
+South Australia,2017,internal_arrivals,121902
+South Australia,2017,internal_departures,-127053
+South Australia,2017,net_internal_migration,-5151
+South Australia,2017,overseas_arrivals,24104
+South Australia,2017,overseas_departures,-11380
+South Australia,2017,net_overseas_migration,12724
+South Australia,2018,births,18922
+South Australia,2018,deaths,-13951
+South Australia,2018,natural_increase,4971
+South Australia,2018,internal_arrivals,123149
+South Australia,2018,internal_departures,-127107
+South Australia,2018,net_internal_migration,-3958
+South Australia,2018,overseas_arrivals,26649
+South Australia,2018,overseas_departures,-11508
+South Australia,2018,net_overseas_migration,15141
+South Australia,2019,births,18763
+South Australia,2019,deaths,-13945
+South Australia,2019,natural_increase,4818
+South Australia,2019,internal_arrivals,123294
+South Australia,2019,internal_departures,-125454
+South Australia,2019,net_internal_migration,-2160
+South Australia,2019,overseas_arrivals,27741
+South Australia,2019,overseas_departures,-12803
+South Australia,2019,net_overseas_migration,14938
+South Australia,2020,births,19312
+South Australia,2020,deaths,-13772
+South Australia,2020,natural_increase,5540
+South Australia,2020,internal_arrivals,131018
+South Australia,2020,internal_departures,-130123
+South Australia,2020,net_internal_migration,895
+South Australia,2020,overseas_arrivals,5717
+South Australia,2020,overseas_departures,-9033
+South Australia,2020,net_overseas_migration,-3316
+Western Australia,2016,births,35045
+Western Australia,2016,deaths,-14896
+Western Australia,2016,natural_increase,20149
+Western Australia,2016,internal_arrivals,184732
+Western Australia,2016,internal_departures,-198666
+Western Australia,2016,net_internal_migration,-13934
+Western Australia,2016,overseas_arrivals,48655
+Western Australia,2016,overseas_departures,-36636
+Western Australia,2016,net_overseas_migration,12019
+Western Australia,2017,births,33989
+Western Australia,2017,deaths,-14658
+Western Australia,2017,natural_increase,19331
+Western Australia,2017,internal_arrivals,199942
+Western Australia,2017,internal_departures,-211242
+Western Australia,2017,net_internal_migration,-11300
+Western Australia,2017,overseas_arrivals,44227
+Western Australia,2017,overseas_departures,-32259
+Western Australia,2017,net_overseas_migration,11968
+Western Australia,2018,births,33251
+Western Australia,2018,deaths,-15186
+Western Australia,2018,natural_increase,18065
+Western Australia,2018,internal_arrivals,211433
+Western Australia,2018,internal_departures,-217884
+Western Australia,2018,net_internal_migration,-6451
+Western Australia,2018,overseas_arrivals,48114
+Western Australia,2018,overseas_departures,-30610
+Western Australia,2018,net_overseas_migration,17504
+Western Australia,2019,births,33115
+Western Australia,2019,deaths,-14896
+Western Australia,2019,natural_increase,18219
+Western Australia,2019,internal_arrivals,195794
+Western Australia,2019,internal_departures,-198204
+Western Australia,2019,net_internal_migration,-2410
+Western Australia,2019,overseas_arrivals,50427
+Western Australia,2019,overseas_departures,-25265
+Western Australia,2019,net_overseas_migration,25162
+Western Australia,2020,births,33792
+Western Australia,2020,deaths,-15305
+Western Australia,2020,natural_increase,18487
+Western Australia,2020,internal_arrivals,203957
+Western Australia,2020,internal_departures,-198606
+Western Australia,2020,net_internal_migration,5351
+Western Australia,2020,overseas_arrivals,12497
+Western Australia,2020,overseas_departures,-18269
+Western Australia,2020,net_overseas_migration,-5772
+Tasmania,2016,births,5589
+Tasmania,2016,deaths,-4559
+Tasmania,2016,natural_increase,1030
+Tasmania,2016,internal_arrivals,33327
+Tasmania,2016,internal_departures,-31805
+Tasmania,2016,net_internal_migration,1522
+Tasmania,2016,overseas_arrivals,4703
+Tasmania,2016,overseas_departures,-2359
+Tasmania,2016,net_overseas_migration,2344
+Tasmania,2017,births,5395
+Tasmania,2017,deaths,-4692
+Tasmania,2017,natural_increase,703
+Tasmania,2017,internal_arrivals,39436
+Tasmania,2017,internal_departures,-37054
+Tasmania,2017,net_internal_migration,2382
+Tasmania,2017,overseas_arrivals,5107
+Tasmania,2017,overseas_departures,-2304
+Tasmania,2017,net_overseas_migration,2803
+Tasmania,2018,births,5543
+Tasmania,2018,deaths,-4459
+Tasmania,2018,natural_increase,1084
+Tasmania,2018,internal_arrivals,40132
+Tasmania,2018,internal_departures,-38124
+Tasmania,2018,net_internal_migration,2008
+Tasmania,2018,overseas_arrivals,5876
+Tasmania,2018,overseas_departures,-2691
+Tasmania,2018,net_overseas_migration,3185
+Tasmania,2019,births,5633
+Tasmania,2019,deaths,-4523
+Tasmania,2019,natural_increase,1110
+Tasmania,2019,internal_arrivals,37005
+Tasmania,2019,internal_departures,-35792
+Tasmania,2019,net_internal_migration,1213
+Tasmania,2019,overseas_arrivals,6507
+Tasmania,2019,overseas_departures,-2869
+Tasmania,2019,net_overseas_migration,3638
+Tasmania,2020,births,5867
+Tasmania,2020,deaths,-4529
+Tasmania,2020,natural_increase,1338
+Tasmania,2020,internal_arrivals,38498
+Tasmania,2020,internal_departures,-38607
+Tasmania,2020,net_internal_migration,-109
+Tasmania,2020,overseas_arrivals,1551
+Tasmania,2020,overseas_departures,-2001
+Tasmania,2020,net_overseas_migration,-450
+Northern Territory,2016,births,3940
+Northern Territory,2016,deaths,-1079
+Northern Territory,2016,natural_increase,2861
+Northern Territory,2016,internal_arrivals,21544
+Northern Territory,2016,internal_departures,-24411
+Northern Territory,2016,net_internal_migration,-2867
+Northern Territory,2016,overseas_arrivals,6904
+Northern Territory,2016,overseas_departures,-5059
+Northern Territory,2016,net_overseas_migration,1845
+Northern Territory,2017,births,3765
+Northern Territory,2017,deaths,-1151
+Northern Territory,2017,natural_increase,2614
+Northern Territory,2017,internal_arrivals,20876
+Northern Territory,2017,internal_departures,-24707
+Northern Territory,2017,net_internal_migration,-3831
+Northern Territory,2017,overseas_arrivals,5024
+Northern Territory,2017,overseas_departures,-4266
+Northern Territory,2017,net_overseas_migration,758
+Northern Territory,2018,births,3675
+Northern Territory,2018,deaths,-1151
+Northern Territory,2018,natural_increase,2524
+Northern Territory,2018,internal_arrivals,22185
+Northern Territory,2018,internal_departures,-26556
+Northern Territory,2018,net_internal_migration,-4371
+Northern Territory,2018,overseas_arrivals,5554
+Northern Territory,2018,overseas_departures,-4622
+Northern Territory,2018,net_overseas_migration,932
+Northern Territory,2019,births,3618
+Northern Territory,2019,deaths,-1118
+Northern Territory,2019,natural_increase,2500
+Northern Territory,2019,internal_arrivals,22012
+Northern Territory,2019,internal_departures,-24709
+Northern Territory,2019,net_internal_migration,-2697
+Northern Territory,2019,overseas_arrivals,4122
+Northern Territory,2019,overseas_departures,-3833
+Northern Territory,2019,net_overseas_migration,289
+Northern Territory,2020,births,3790
+Northern Territory,2020,deaths,-1145
+Northern Territory,2020,natural_increase,2645
+Northern Territory,2020,internal_arrivals,22288
+Northern Territory,2020,internal_departures,-24792
+Northern Territory,2020,net_internal_migration,-2504
+Northern Territory,2020,overseas_arrivals,1419
+Northern Territory,2020,overseas_departures,-1886
+Northern Territory,2020,net_overseas_migration,-467
+Australian Capital Territory,2016,births,5599
+Australian Capital Territory,2016,deaths,-2056
+Australian Capital Territory,2016,natural_increase,3543
+Australian Capital Territory,2016,internal_arrivals,21352
+Australian Capital Territory,2016,internal_departures,-20122
+Australian Capital Territory,2016,net_internal_migration,1230
+Australian Capital Territory,2016,overseas_arrivals,10328
+Australian Capital Territory,2016,overseas_departures,-6180
+Australian Capital Territory,2016,net_overseas_migration,4148
+Australian Capital Territory,2017,births,5365
+Australian Capital Territory,2017,deaths,-2167
+Australian Capital Territory,2017,natural_increase,3198
+Australian Capital Territory,2017,internal_arrivals,22161
+Australian Capital Territory,2017,internal_departures,-21603
+Australian Capital Territory,2017,net_internal_migration,558
+Australian Capital Territory,2017,overseas_arrivals,10973
+Australian Capital Territory,2017,overseas_departures,-6375
+Australian Capital Territory,2017,net_overseas_migration,4598
+Australian Capital Territory,2018,births,5356
+Australian Capital Territory,2018,deaths,-2065
+Australian Capital Territory,2018,natural_increase,3291
+Australian Capital Territory,2018,internal_arrivals,22405
+Australian Capital Territory,2018,internal_departures,-22599
+Australian Capital Territory,2018,net_internal_migration,-194
+Australian Capital Territory,2018,overseas_arrivals,9945
+Australian Capital Territory,2018,overseas_departures,-7136
+Australian Capital Territory,2018,net_overseas_migration,2809
+Australian Capital Territory,2019,births,5476
+Australian Capital Territory,2019,deaths,-2133
+Australian Capital Territory,2019,natural_increase,3343
+Australian Capital Territory,2019,internal_arrivals,20394
+Australian Capital Territory,2019,internal_departures,-21044
+Australian Capital Territory,2019,net_internal_migration,-650
+Australian Capital Territory,2019,overseas_arrivals,9378
+Australian Capital Territory,2019,overseas_departures,-7143
+Australian Capital Territory,2019,net_overseas_migration,2235
+Australian Capital Territory,2020,births,5420
+Australian Capital Territory,2020,deaths,-2102
+Australian Capital Territory,2020,natural_increase,3318
+Australian Capital Territory,2020,internal_arrivals,22079
+Australian Capital Territory,2020,internal_departures,-21722
+Australian Capital Territory,2020,net_internal_migration,357
+Australian Capital Territory,2020,overseas_arrivals,2623
+Australian Capital Territory,2020,overseas_departures,-5900
+Australian Capital Territory,2020,net_overseas_migration,-3277

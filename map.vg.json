@@ -17,12 +17,12 @@
     },
     {
       "name": "zoom_level",
-      "value": 30000,
+      "value": 12000,
       "bind": {
         "input": "range",
-        "min": 3500,
+        "min": 2000,
         "max": 60000,
-        "step": 100,
+        "step": 200,
         "name": "Zoom: "
       }
     },
@@ -34,8 +34,7 @@
         "options": [
           [145, -37.95],
           [151.2, -33.86],
-          [153.1, -27.47],
-          [147.1, -38.1]
+          [153.1, -27.47]
         ],
         "labels": ["Melbourne CBD", "Sydney", "Brisbane"],
         "name": "Map Centre: "
@@ -88,7 +87,7 @@
           "legend": {"format": ".2s"}
         },
         "tooltip": [
-          {"field": "lga_name_2021", "type": "nominal", "title": "Suburb"},
+          {"field": "lga_name_2021", "type": "nominal", "title": "Local Government Area"},
           {
             "field": "growth_02",
             "type": "quantitative",

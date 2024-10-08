@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Median house price per suburb (2010-2020)",
-  "width": 600,
-  "height": 500,
+  "width": "container",
+  "height": "container",
   "params": [
     {
       "name": "Year_selection",

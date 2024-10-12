@@ -5,11 +5,11 @@
   "params": [
     {
       "name": "Year_selection",
-      "value": 2018,
+      "value": 2021,
       "bind": {
         "input": "range",
         "min": 2002,
-        "max": 2020,
+        "max": 2021,
         "step": 1,
         "name": "Year:  "
       }
@@ -19,8 +19,8 @@
       "value": 12000,
       "bind": {
         "input": "range",
-        "min": 2000,
-        "max": 60000,
+        "min": 1500,
+        "max": 20000,
         "step": 200,
         "name": "Zoom: "
       }
@@ -74,13 +74,14 @@
             "key": "properties.LGA_NAME21"
           },
           "as": "geo"
-        }
+        },
+        {"calculate": "datum[Year_selection]", "as": "year_price"}
       ],
       "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
       "encoding": {
         "shape": {"field": "geo", "type": "geojson"},
         "color": {
-          "field": "growth_02",
+          "field": "year_price",
           "type": "quantitative",
           "scale": {"domain": [-10.0, 10.0], "scheme": "brownbluegreen"},
           "legend": {"format": ".2s"}
@@ -88,9 +89,9 @@
         "tooltip": [
           {"field": "lga_name_2021", "type": "nominal", "title": "Local Government Area"},
           {
-            "field": "growth_02",
+            "field": "year_price",
             "type": "quantitative",
-            "title": "growth_02",
+            "title": "year_price",
             "format": ","
           }
         ]

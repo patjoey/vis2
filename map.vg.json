@@ -19,8 +19,8 @@
       "value": 12000,
       "bind": {
         "input": "range",
-        "min": 1500,
-        "max": 20000,
+        "min": 1000,
+        "max": 13000,
         "step": 200,
         "name": "Zoom: "
       }
@@ -48,7 +48,7 @@
   "layer": [
     {
       "data": {
-      "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/LGA_2021_AUST_GDA2020.json",
+      "url": "LGA_2021_AUST_GDA2020.json",
       "format": {"type": "topojson", "feature": "LGA_2021_AUST_GDA2020"}
       },
       "mark": {
@@ -68,7 +68,7 @@
           "lookup": "lga_name_2021",
           "from": {
             "data": {
-            "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/LGA_2021_AUST_GDA2020.json",
+            "url": "LGA_2021_AUST_GDA2020.json",
             "format": {"type": "topojson", "feature": "LGA_2021_AUST_GDA2020"}
             },
             "key": "properties.LGA_NAME21"

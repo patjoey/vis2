@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="layout.css">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -15,6 +19,9 @@
     <script src="visMap.js"></script>
     <script src="visScatter.js"></script>
     <script src="area.js"></script>
+    <script src="stream.js"></script>
+    <script src="bump.js"></script>
+    <script src="immi.js"></script>
     <title>Population Growth </title>
 </head>
 <body>
@@ -23,43 +30,94 @@
             <h1>Australian Population Growth</h1>
         </div>
 
-        <div class="pure-u-1">
-            <p>
-                The growth rate of high density areas is increasing at a higher rate than smaller rural areas.
-                The has a significant impact on the Australia's development as city centres will become increasing more dense while rural areas remain unpopulated.
-            </p>
-            <div id="scat">
-        </div>
-
-        <div class="pure-u-1">
-            <h2>Australian Growth Per Local Government Area</h2>
-        </div>
-
-        <div class="pure-u-1-2">
-            <div id="map">
-
+        <h2> Growth Rate In Different Population Densities</h2>
+        <div class="pure-u-23-24">
+            <div class="pure-u-11-24">
+                <p>
+                    The growth rate in Australia is steadily increasing. <br> <br>
+                    However, significantly more people are <span class='bold'>moving into high density areas</span> and <span class='bold'>out of low density areas</span>.
+                </p>
             </div>
-        </div>
-        <div class="pure-u-1-2">
-            <p>Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample 
-                Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample 
+            <div class="pure-u-1-24">
         
-                
-
-            </p>
-        </div>
-        <div class="pure-u-1-2">
-            <p>Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample 
-                Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample 
-                
-                
-
-            </p>
-        </div>
-        <div class="pure-u-1-2">
-            <div id="area">
+            </div>
+            <div class="pure-u-11-24">
+                <p>
+                    This can be visualised by the positive correlation between population and percentage growth rate. <br>
+                    This issue is particularly severe in <span class='vic'>Victoria</span> but not as present in <span class='qld'>Queensland</span>.
+                </p>
+            </div>
+            <div id="scat"> </div>
+            
         </div>
 
+        <h2> Growth In Australian Regions</h2>
+            <br>
+        <div class="pure-u-23-24">
+            <div class="pure-u-11-24">
+                <p>
+                    The only year where people where moving out of the cities was 2021. This was the most evident in <span class='vic'>Melbourne</span>. <br> <br>
+                    Throughout every other year, people were <span class='bold'>moving away from the regional districts</span> and <span class='bold'>into city centres</span>.
+                </p>
+            </div>
+            <div class="pure-u-1-24">
+        
+            </div>
+            <div class="pure-u-11-24">
+                <p>
+                    Use the <span class='bold'>year slider</span> to see the growth rate of each region over different years. <br>
+                    Use the <span class='bold'>zoom slider</span> to zoom out. Note the stark differences between city and regional growth. <br> <br>
+                    <span class='bold'>Focus</span> on different city centres accross Australia.
+                </p>
+            </div>
+            <div id="map"> </div>
+            
+        </div>
+
+        <h2>New Buildings Being Constructed In Australia</h2>
+        <div class="pure-u-23-24">
+            <div class="pure-u-11-24">
+                <p>
+                    Australia is both <span class='bold'>growing quicker</span> and <span class='bold'>moving into denser areas</span>. <br><br>
+                    However, the rate at which new buildings are constructed is decreasing! <br><br>
+                    The largest housing developer used to be <span class='nsw'>NSW</span> but it has significantly fallen behind the other states (shown on the right).
+                    
+                </p>
+            </div>
+            <div class="pure-u-1-24">
+        
+            </div>
+            <div class="pure-u-11-24">
+                <br>
+                <div id="bump"> </div>
+            </div>
+            <div id="stream"> </div>
+            
+        </div>
+
+        <h2>New Buildings Being Constructed In Australia</h2>
+        <div class="pure-u-23-24">
+            <div class="pure-u-11-24">
+                <br>
+                <div id="area"></div>
+            </div>
+            <div class="pure-u-1-24">
+        
+            </div>
+            <div class="pure-u-11-24">
+                <p>
+                    Australian Growth is primarily lead by <span class='immit'>immigration</span> followed by <span class='nat'>natural growth</span> (births and deaths). 
+                    <br><br>
+                    This caused the growth rate to significantly reduce during the Covid-19 Pandemic. However, the growth rate has quickly rebounded in the last few years.
+                    <br> <br>
+                    Most Migration occurs from parts of <span class='bold'>Asia</span> due to its closer proximity. Howevver, there are also a significant number of people coming from <span class='bold'>Colombia</span> and <span class='bold'>Ireland</span>.
+                    <br><br>
+                    The graph to the left shows the contribution to Australian growth. The map below shows the amount of people that migrated to Australia in 2019.
+                    
+                </p>
+            </div>
+            <div id="immi"> </div>
+            
+        </div>
     </div>
 </body>
-</html>

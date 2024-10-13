@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": "container",
+  "background": "#f2f2f2",
   "params": [
     {
       "name": "Year_selection",
@@ -20,7 +21,7 @@
       "bind": {
         "input": "range",
         "min": 1000,
-        "max": 13000,
+        "max": 15000,
         "step": 200,
         "name": "Zoom: "
       }
@@ -61,7 +62,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/growth.csv"
+        "url": "growth.csv"
       },
       "transform": [
         {
@@ -85,8 +86,8 @@
           "type": "quantitative",
           "scale": {
           "type": "threshold",
-          "domain": [-8, -4, 0, 4, 8],
-          "range": ["#9c4510", "#dc8629", "#fdd691", "#bbe5d1", "#3ea8a7", "#086769"]},
+          "domain": [-6, -3, -2, -1, 0, 1, 2, 3, 6],
+          "range": ["#580000", "#bc661a","#dc8629", "#f4ad51", "#fdd693", "#bbe5d1", "#76c7be", "#21808a", "#08676a", "#002c2d"]},
           "legend": {"format": ".2s", "title":"Growth Rate (Percent)"}
         },
         "tooltip": [
@@ -94,8 +95,8 @@
           {
             "field": "year_price",
             "type": "quantitative",
-            "title": "year_price",
-            "format": ","
+            "title": "Percentage Growth Rate",
+            "format": ".2f"
           }
         ]
       }

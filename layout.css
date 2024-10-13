@@ -1,56 +1,125 @@
 html,
 body {
-    background-color: #F3FAF9;
+    font-family: "PT Sans", sans-serif;
+    background-color: #FFFFFF;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .pure-u-1 {
-    width: 100vw;
+    width: 95vw;
+}
+
+.vic {
+    color: #da2ba2;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.nsw {
+    color: #e77a0c;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.immit {
+    color: #128d8d;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.qld {
+    color: #3d9136;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.nat {
+    color: #4dbd05;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal
 }
 
 .pure-u-1-2 {
-    width: 45vw;
     height: 340px;
+    width: 47.3vw;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .pure-u-1-3 {
     margin-top: 30px;
     width: 30vw;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#text_div {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 h1 {
+    font-family: "Roboto Slab", serif;
     text-align: center;
-    color: #527298;
-    font-size: 40px;
+    font-size: 45px;
+    
 }
 
 h2 {
     text-align: left;
-    color: #527298;
-    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
 }
 
 p {
-    color: #527298;
-    font-size: 14px;
+
+    font-size: 16px;
     text-align: justify;
 }
 
+.pure-u-10-24 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pure-u-1-24 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 1.2vw;
+}
+
+.pure-u-11-24 {
+    background-color: #f2f2f2;
+}
+
+.pure-u-2-24 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.pure-u-23-24 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+
 #scat {
-    width: 98%;
-    height: 40vh;
-    text-align: right;
-    margin-left: 10px;
+    width: 100%;
+    height: 60vh;
+    text-align: left;
+}
+
+#stream {
+    width: 70vw;
+    text-align: left;
 }
 
 #map {
@@ -58,7 +127,28 @@ p {
     height: 300px;
 }
 
+#immi {
+    width: 100%;
+    height: 600px;
+}
+
+#bump {
+    width: 100%;
+    height: 150px;
+    padding-bottom: 30px;
+
+}
+
 #area {
     width: 100%;
     height: 300px;
+}
+
+border-shadow {
+    border: 2px solid #2C3E50;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }

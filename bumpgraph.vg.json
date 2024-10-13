@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "background": "#f2f2f2",
+  "data": {
+    "url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/new_building.csv"
+  },
+  "transform": [{
+    "sort": [
+      {"field": "Building_pop", "order": "descending"}
+    ],
+    "groupby": ["Date"],
+    "window": [{
+      "op": "rank",
+      "as": "Rank"
+    }]
+  }],
+  "mark": {"type": "line", "orient": "vertical"},
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal","timeUnit": "yearmonth", "title": "Date"},
+    "y": {"field": "Rank", "type": "ordinal"},
+    "color": {
+      "field": "State", "type": "nominal",
+      "scale": {
+        "domain": ["New South Wales", "Western Australia", "Victoria"],
+        "range": ["#E49444", "#E5E4E2", "#E5E4E2"]
+      },
+      "legend": null
+    }  
+  }
+}

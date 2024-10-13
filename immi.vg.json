@@ -1,0 +1,54 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "background": "#f2f2f2",
+    "projection": {"type": "equalEarth"},
+    "data": {
+      "url": "immigrationMap.json",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "layer": [
+    {
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "as": "note"
+        }
+      ],
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "encoding": {"tooltip": {"field": "note"}}
+    },
+    {
+    "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "immigration.csv"
+          },
+          "key": "Country",
+          "fields": ["immigration"]
+        }
+      }
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {
+        "field": "immigration",
+        "title": "People",
+        "type": "quantitative",
+        "legend":{"orient":"top-left"},
+        "scale": {
+          "type": "threshold",
+          "domain": [0, 100, 1000, 3000, 6000, 20000],
+          "range": ["#f2f2f2","#f0f9f9", "#b8e5e5", "#7dcfcf", "#3da4a4", "#2f7f7f", "#1d4e4e"]
+        }
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+        {"field": "immigration", "type": "quantitative"}
+      ]
+    }
+  }]
+}

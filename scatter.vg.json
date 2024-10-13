@@ -41,15 +41,49 @@
       "filter": "State_selection == null || datum.state_name_2021 == State_selection"
     }
   ],
-  "mark": "point",
   "encoding": {
-    "x": {"field": "erp_2019", "type": "quantitative","title": "Population", "scale": {"type": "log"}},
-    "y": {"field": "2019", "type": "quantitative", "title": "Growth Rate"},
-    "color":{"field": "state_name_2021", "type": "nominal", "legend": {"orient":"top-left", "title": "State or Territory"}},
-    "tooltip": [
-      {"field": "lga_name_2021", "type": "nominal", "title": "Local Government Area"},
-      {"field": "2019", "type": "quantitative", "title": "Percentage Growth", "format":".2f"},
-      {"field": "erp_2019", "type": "quantitative", "title": "Population", "format":","}
-        ]
+      "x": {"field": "erp_2019", "type": "quantitative","title": "Population", "scale": {"type": "log"}},
+      "y": {"field": "2019", "type": "quantitative", "title": "Growth Rate"},
+      "color":{"field": "state_name_2021", "type": "nominal", "legend": {"orient":"top-left", "title": "State or Territory"}},
+      "tooltip": [
+        {"field": "lga_name_2021", "type": "nominal", "title": "Local Government Area"},
+        {"field": "2019", "type": "quantitative", "title": "Percentage Growth", "format":".2f"},
+        {"field": "erp_2019", "type": "quantitative", "title": "Population", "format":","}
+          ]
+    },
+  "layer": [
+    {
+    "mark": "point",
+    "encoding": {
+      "x": {"field": "erp_2019", "type": "quantitative","title": "Population", "scale": {"type": "log"}},
+      "y": {"field": "2019", "type": "quantitative", "title": "Growth Rate"},
+      "color":{"field": "state_name_2021", "type": "nominal", "legend": {"orient":"top-left", "title": "State or Territory"}},
+      "tooltip": [
+        {"field": "lga_name_2021", "type": "nominal", "title": "Local Government Area"},
+        {"field": "2019", "type": "quantitative", "title": "Percentage Growth", "format":".2f"},
+        {"field": "erp_2019", "type": "quantitative", "title": "Population", "format":","}
+          ]
+    }
+  },
+  {
+    "mark": {
+    "type": "text",
+    "align": "left",
+    "baseline": "top",
+    "dx": 10,
+    "fontSize": 10,
+    "fontStyle": "bold"
+    },
+    "encoding": {
+      "text": {"field": "lga_name_2021", "type": "nominal"},
+      "opacity": {
+        "condition": {
+          "test": "datum['lga_name_2021'] == 'Brisbane' || datum['lga_name_2021'] == 'Camden' || datum['lga_name_2021'] == 'Melbourne'",
+          "value": 1
+        },
+        "value": 0
+      }
+    }
   }
+  ]
 }

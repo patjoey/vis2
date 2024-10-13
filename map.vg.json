@@ -83,8 +83,11 @@
         "color": {
           "field": "year_price",
           "type": "quantitative",
-          "scale": {"domain": [-10.0, 10.0], "scheme": "brownbluegreen"},
-          "legend": {"format": ".2s"}
+          "scale": {
+          "type": "threshold",
+          "domain": [-8, -4, 0, 4, 8],
+          "range": ["#9c4510", "#dc8629", "#fdd691", "#bbe5d1", "#3ea8a7", "#086769"]},
+          "legend": {"format": ".2s", "title":"Growth Rate (Percent)"}
         },
         "tooltip": [
           {"field": "lga_name_2021", "type": "nominal", "title": "Local Government Area"},

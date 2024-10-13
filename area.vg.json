@@ -1,40 +1,90 @@
 {
-  "width": "container",
-  "height": "container",
-  "background": "#f2f2f2",
-  "data": {
-    "url": "state_change.csv"
-  },
-  "layer": [
+  "width": "container", "height": "container",
+  "data": {"url": "https://raw.githubusercontent.com/patjoey/vis2/refs/heads/main/state_change.csv"},
+  "params":[
     {
-      "mark": "bar",
-      "transform": [
-        {
-          "filter": "datum.Type != 'births' & datum.Type != 'Inter-state move'& datum.Type != 'Immigration'& datum.Type != 'deaths' & datum.Type != 'Emigration' & datum.Type != 'Moving States'"
-        }
-      ],
-      "encoding": {
-        "x": {"timeUnit": "year", "field": "Year", "axis": {"format": "%Y"}, "title": "Year"},
-        "y": {"aggregate": "sum", "field": "count", "title": "Change in Population (People)"},
-        "color": {
-          "legend":{"orient":"top", "title": "Category"},
-          "field": "Type",
-          "type": "nominal",
-          "scale": {
-            "domain": [
-              "Internal Migration",
-              "Overseas Migration",
-              "Natural Increase"
-            ],
-            "range": [
-              "#9b45a3",
-              "#2f7f7f",
-              "#4dbd05"
-            ]
-          }
-        },
-        "opacity": {"value": 0.6}
+      "name": "State_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Victoria",
+          "New South Wales",
+          "Queensland",
+          "Tasmania",
+          "South Australia",
+          "Western Australia",
+          "Northern Territory"
+        ],
+        "labels": [
+          "Victoria",
+          "New South Wales",
+          "Queensland",
+          "Tasmania",
+          "South Australia",
+          "Western Australia",
+          "Northern Territory"
+        ],
+        "name": "Continent Selection: "
       }
     }
+  ],
+  "layer": [
+    {
+    "mark": "area",
+    "transform": [{"filter": "datum.Type != 'net_internal_migration' & datum.Type != 'net_overseas_migration'& datum.Type != 'natural_increase'" },
+    {
+        "filter": "State_selection == null || datum.State == State_selection"
+      }
+      ],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "count"
+      },
+      "color": {
+            "field": "Type",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "births",
+                "deaths",
+                "internal_arrivals",
+                "internal_departures",
+                "overseas_arrivals",
+                "overseas_departures"
+              ],
+              "range": [
+                "#0560e1",
+                "#7B8896",
+                "#319dd3",
+                "#EA653B",
+                "#5684ae",
+                "#E3491A"
+              ]
+            }
+          },
+          "opacity": {"value": 0.6}
+    }
+  },
+  {
+    "mark":"line",
+    "transform": [{"filter": "datum.Type != 'net_internal_migration' & datum.Type != 'net_overseas_migration'& datum.Type != 'natural_increase'" },
+    {
+        "filter": "State_selection == null || datum.State == State_selection"
+      }
+      ],
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year",
+        "axis": {"format": "%Y"}
+      },
+      "y": {
+        "aggregate": "sum", "field": "count"
+      }
+    }
+  }
   ]
 }
